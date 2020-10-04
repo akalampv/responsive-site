@@ -1,0 +1,51 @@
+@media only screen and (min-width: 1000px) {
+
+    /* BODY */
+    body {
+        background-color: #3b5249;
+    }
+
+    /* WRAPPER */
+    #wrapper {}
+
+    /* CONTAINER */
+    #container {
+        margin: 2em auto;
+        border: 1px solid black;
+    }
+
+    /* HEADER */
+    header {}
+    header img {}
+    header hgroup {}
+    header hgroup h1 {}
+    header hgroup h2 {}
+
+    /* NAVBAR */
+    nav {}
+    nav ul {}
+    nav ul li {}
+    nav ul li a {}
+    nav ul li a:hover {}
+
+    /* PAGE CONTENT */
+    #content {}
+    #content figure {}
+    #content figure img {}
+    #content div {
+        display: flex;
+        justify-content: space-between;
+    }
+    #content div article {
+        max-width: 48%;
+    }
+    #content h1 {}
+    #content p {}
+
+    /* FOOTER */
+    footer {}
+    footer p {}
+
+    /* CLASSES */
+
+}

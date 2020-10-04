@@ -1,0 +1,106 @@
+/* Prevents phone from resizing in landscape mode */
+html {
+    -webkit-text-size-adjust: none;
+}
+
+/* apply a natural box layout model to all elements */
+* {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Special Elite', cursive;
+    font-size: 1em;
+}
+
+/* CONTAINER */
+#container {
+    background-color: #a4b494;
+    min-width: 320px;
+    max-width: 1000px;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 5px solid #3b5249;
+    padding: 0.5em;
+    background-color: #382933;
+}
+header img {
+    max-width: 20%;
+}
+header hgroup {
+    padding-left: 1em;
+    font-family: 'Atomic Age', cursive;
+}
+header hgroup h1 {
+    font-size: 2em;
+}
+header hgroup h2 {
+    font-size: 1.3em;
+}
+
+/* NAVBAR */
+nav {}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li {
+
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 0.7em;
+    margin: 0.5em;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #382933;
+    color: #a4b494;
+}
+nav ul li a:hover {
+    background-color: #3b5249;
+    color: #382933;
+}
+
+/* PAGE CONTENT */
+#content {}
+#content figure {}
+#content figure img {
+    width: 100%;
+    height: auto;
+}
+#content div {
+    padding: 0.5em 2%;
+}
+#content h1 {
+    font-family: 'Atomic Age', cursive;
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+
+}
+#content p {
+    font-family: 'Special Elite', cursive;
+    margin-bottom: 1em;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    font-size: 0.8em;
+}
+footer p {}
+
+/* CLASSES */
+.active {
+    background-color: #3b5249;
+}
+.active:hover {
+    color: #382933;
+}

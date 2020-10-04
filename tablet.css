@@ -1,0 +1,44 @@
+@media only screen and (min-width: 600px) {
+
+    /* BODY */
+    body {}
+
+    /* CONTAINER */
+    #container {}
+
+    /* HEADER */
+    header {}
+    header img {}
+    header hgroup {}
+    header hgroup h1 {}
+    header hgroup h2 {}
+
+    /* NAVBAR */
+    nav {
+        background-color: #382933;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav ul li {}
+    nav ul li a {
+        border: none;
+        border-radius: 0;
+        margin: 0;
+    }
+    nav ul li a:hover {}
+
+    /* PAGE CONTENT */
+    #content {}
+    #content figure {}
+    #content figure img {}
+    #content h1 {}
+    #content p {}
+
+    /* FOOTER */
+    footer {}
+    footer p {}
+
+    /* CLASSES */
+
+}
